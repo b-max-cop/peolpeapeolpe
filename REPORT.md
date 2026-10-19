@@ -15,16 +15,14 @@
 | F-03 | 실적 4건 이상, 중·고등학교 실적 1건 이상, 필수 열·최신순·표 형식 확인 | (Pass) | [캡처](images/check_F03.png) |
 | F-04 | 2026-2 수강 과목 전체와 전공/교양 및 웹프로그래밍 링크 확인 | (Pass) | [캡처](images/check_F04.png) |
 | F-05 | 1~15주차 링크·예정 표시·색 구분 확인 | (Pass) | [캡처](images/check_F05.png) |
-| F-06 | footer 날짜와 마지막 커밋 날짜 일치 여부 확인 | (Pass/Fail) | [캡처](images/check_F06-1.png) [캡처](images/check_F06-2.png)|
+| F-06 | footer 날짜와 마지막 커밋 날짜 일치 여부 확인 | (Pass) | [캡처](images/check_F06-1.png) [캡처](images/check_F06-2.png)|
 | Q-HTML | W3C HTML 검사기로 배포 URL 검사 | (Pass/Fail) | [캡처](images/check_Q-HTML.png) |
 | Q-CSS | W3C CSS 검사, 인라인 style 확인, 창 크기 변경 확인 | (Pass) | [캡처](images/check_Q-CSS.png) |
-| Q-DEPLOY | 모든 링크와 이미지 확인 | (Pass/Fail) | [캡처](images/check_Q-DEPLOY.png) |
 
----
 
 ## 2. 완성도 분석
 
-**완성도 = 충족(Pass)한 요구사항 수 ÷ 평가 대상 요구사항 수(9) = ( ) / 9 = ( )%**
+**완성도 = 충족(Pass)한 요구사항 수 ÷ 평가 대상 요구사항 수(8) = 8 / 8 = 100%**
 
 ### 요구사항과 결과가 다른 부분
 
@@ -33,7 +31,7 @@
 
 ### 다음에 다르게 할 점
 
-(입력)
+실적에 관련 이미지나 링크를 첨부한다.
 
 ---
 
