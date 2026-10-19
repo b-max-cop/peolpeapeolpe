@@ -2,7 +2,7 @@
 
 | 항목 | 내용 |
 | 활동명 | B-max |
-| 배포 URL | https:// |
+| 배포 URL | [https://](https://creepoint.smu.ai.kr/) |
 | 작성일 | 2026-10-19 |
 
 ---
@@ -11,13 +11,13 @@
 
 | ID | 확인 방법 | 결과 | 근거 |
 | F-01 | 1280px 창에서 스크롤 없이 활동명·소속·한 줄 소개 확인 | (Pass) | [캡처](images/check_F01.png) |
-| F-02 | GitHub 링크 클릭 및 다른 연락처가 없는지 확인 | (Pass/Fail) | [캡처](images/check_F02.png) |
+| F-02 | GitHub 링크 클릭 및 다른 연락처가 없는지 확인 | (Pass) | [캡처](images/check_F02.png) |
 | F-03 | 실적 4건 이상, 중·고등학교 실적 1건 이상, 필수 열·최신순·표 형식 확인 | (Pass) | [캡처](images/check_F03.png) |
 | F-04 | 2026-2 수강 과목 전체와 전공/교양 및 웹프로그래밍 링크 확인 | (Pass) | [캡처](images/check_F04.png) |
 | F-05 | 1~15주차 링크·예정 표시·색 구분 확인 | (Pass) | [캡처](images/check_F05.png) |
-| F-06 | footer 날짜와 마지막 커밋 날짜 일치 여부 확인 | (Pass/Fail) | [캡처](images/check_F06.png) |
+| F-06 | footer 날짜와 마지막 커밋 날짜 일치 여부 확인 | (Pass/Fail) | [캡처](images/check_F06-1.png) [캡처](images/check_F06-2.png)|
 | Q-HTML | W3C HTML 검사기로 배포 URL 검사 | (Pass/Fail) | [캡처](images/check_Q-HTML.png) |
-| Q-CSS | W3C CSS 검사, 인라인 style 확인, 창 크기 변경 확인 | (Pass/Fail) | [캡처](images/check_Q-CSS.png) |
+| Q-CSS | W3C CSS 검사, 인라인 style 확인, 창 크기 변경 확인 | (Pass) | [캡처](images/check_Q-CSS.png) |
 | Q-DEPLOY | 모든 링크와 이미지 확인 | (Pass/Fail) | [캡처](images/check_Q-DEPLOY.png) |
 
 ---
@@ -29,8 +29,7 @@
 ### 요구사항과 결과가 다른 부분
 
 | ID | 수용 기준 | 실제 결과 | 원인 |
-|---|---|---|---|
-| (입력) | (입력) | (입력) | (입력) |
+| F-05 | 1~15주차 링크·예정 표시·색 구분 확인 | 실행에는 문제가 없었지만 코드에 문제가 있었다 | <span> 과 <a>를 혼용하여 작성했었다. 나중에 발견하고 수정하였다. |
 
 ### 다음에 다르게 할 점
 
