@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>개인 이력서</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container header-content">
+    <div>
+      <h1>B-max</h1>
+      <p>상명대학교 소프트웨어학과 1학년</p>
+      <p>프로그래밍과 3D 그래픽에 관심있는 평범한 대학생입니다.</p>
+    </div>
+    <a class="github-link" href="https://github.com/b-max-cop" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+  </div>
+</header>
+
+<main class="container">
+<section id="achievements">
+<h2>실적</h2>
+<table>
+<thead><tr><th>시기</th><th>분류</th><th>내용</th><th>역할</th></tr></thead>
+<tbody>
+<tr><td>2023.03 - 2023.05</td><td>활동</td><td>친구들을 모와 독서모임을 만들어 책을 읽고 토론하는 활동을 했다.</td><td>부원</td></tr>
+<tr><td>2024.03 - 2024.12</td><td>활동</td><td>도서부 회장 선거에서 부회장을 맞게되어 한해 일정을 작성하고 각종 도서부 홍보 포스터를 제작하였다.</td><td>도서부 부회장</td></tr>
+<tr><td>2024.07</td><td>활동</td><td>학교에서 일주일간 진행한 프로젝트에서 '싼데비슷한'이란 이름으로 모둠원들과 퍼즐 게임을 제작하였다.</td><td>기획, 디자인, 프로그래밍</td></tr>
+<tr><td>2026.07</td><td>프로젝트</td><td>친구들과 모여 게임 제작 프로젝트를 결성. 이후 지속적으로 진행중이다.</td><td>기획, 프로그래밍</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="courses">
+<h2>수강 과목</h2>
+<ul class="course-list">
+<li><span>사고와 표현</span><b>교양</b></li>
+<li><span>유비쿼터스컴퓨팅과 미래사회</span><b>교양</b></li>
+<li><span>이산수학</span><b>전공</b></li>
+<li><span>컴퓨터프로그래밍II</span><b>전공</b></li>
+<li><span>기초수학</span><b>교양</b></li>
+<li><a href="#weekly-practice">웹프로그래밍 및 AI에이전트 활용</a><b>전공</b></li>
+<li><span>컴퓨터프로그래밍 실습II</span><b>전공</b></li>
+</ul>
+</section>
+
+<section id="timetable">
+<h2>시간표</h2>
+<div class="semester-buttons">
+<button class="semester-button active" data-semester="first">1-1학기</button>
+<button class="semester-button" data-semester="second">1-2학기</button>
+</div>
+
+<div id="schedule-first" class="schedule-panel active">
+<h3>1-1학기</h3>
+<table class="schedule-table">
+<thead><tr><th>시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr></thead>
+<tbody>
+<tr><th>09</th><td></td><td class="yellow">소프트웨어<br>개론(SW)<small>I107</small></td><td></td><td class="lime">디지털인문학<small>I105</small></td><td class="blue">컴퓨터프로그래밍Ⅰ(PBL)<small>I718</small></td></tr>
+<tr><th>10</th><td></td><td class="yellow">소프트웨어<br>개론(SW)<small>I107</small></td><td></td><td class="lime">디지털인문학<small>I105</small></td><td class="blue">컴퓨터프로그래밍Ⅰ(PBL)<small>I718</small></td></tr>
+<tr><th>11</th><td></td><td class="yellow">소프트웨어<br>개론(SW)<small>I107</small></td><td></td><td class="lime">디지털인문학<small>I105</small></td><td class="blue">컴퓨터프로그래밍Ⅰ(PBL)<small>I718</small></td></tr>
+<tr><th>12</th><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th>1</th><td></td><td></td><td></td><td class="green">컴퓨터구조<small>I211</small></td><td class="orange">컴퓨터프로그래밍실습Ⅰ(PBL)<small>I718</small></td></tr>
+<tr><th>2</th><td class="red">확률통계(Flip)<small>N204</small></td><td></td><td></td><td class="green">컴퓨터구조<small>I211</small></td><td class="orange">컴퓨터프로그래밍실습Ⅰ(PBL)<small>I718</small></td></tr>
+<tr><th>3</th><td class="red">확률통계(Flip)<small>N204</small></td><td></td><td></td><td class="green">컴퓨터구조<small>I211</small></td><td class="orange">컴퓨터프로그래밍실습Ⅰ(PBL)<small>I718</small></td></tr>
+<tr><th>4</th><td class="red">확률통계(Flip)<small>N204</small></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</div>
+
+<div id="schedule-second" class="schedule-panel">
+<h3>1-2학기</h3>
+<table class="schedule-table">
+<thead><tr><th>시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr></thead>
+<tbody>
+<tr><th>9</th><td></td><td class="yellow">유비쿼터스<br>컴퓨팅과미래사회<small>I310</small></td><td></td><td class="green">컴퓨터프로그래밍Ⅱ(PBL)<small>I718</small></td><td></td></tr>
+<tr><th>10</th><td class="red">사고와표현<small>I305</small></td><td class="yellow">유비쿼터스<br>컴퓨팅과미래사회<small>I310</small></td><td></td><td class="green">컴퓨터프로그래밍Ⅱ(PBL)<small>I718</small></td><td></td></tr>
+<tr><th>11</th><td class="red">사고와표현<small>I305</small></td><td class="yellow">유비쿼터스<br>컴퓨팅과미래사회<small>I310</small></td><td></td><td class="green">컴퓨터프로그래밍Ⅱ(PBL)<small>I718</small></td><td></td></tr>
+<tr><th>12</th><td class="red">사고와표현<small>I305</small></td><td></td><td></td><td class="blue">기초수학<small>I208</small></td><td></td></tr>
+<tr><th>1</th><td></td><td class="lime">이산수학<small>I110</small></td><td></td><td class="blue">기초수학<small>I208</small></td><td class="purple">컴퓨터프로그래밍실습Ⅱ(PBL)<small>I718</small></td></tr>
+<tr><th>2</th><td></td><td class="lime">이산수학<small>I110</small></td><td></td><td class="blue">기초수학<small>I208</small></td><td class="purple">컴퓨터프로그래밍실습Ⅱ(PBL)<small>I718</small></td></tr>
+<tr><th>3</th><td></td><td class="lime">이산수학<small>I110</small></td><td></td><td class="orange">웹프로그래밍 및<br>AI에이전트 활용<small>I109</small></td><td class="purple">컴퓨터프로그래밍실습Ⅱ(PBL)<small>I718</small></td></tr>
+<tr><th>4</th><td></td><td></td><td></td><td class="orange">웹프로그래밍 및<br>AI에이전트 활용<small>I109</small></td><td></td></tr>
+<tr><th>5</th><td></td><td></td><td></td><td class="orange">웹프로그래밍 및<br>AI에이전트 활용<small>I109</small></td><td></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="weekly-practice">
+<h2>웹프로그래밍 주차별 링크</h2>
+<ol class="week-list">
+<li><span>1주차 (자료 없음)</a></li><li><a href="week/DOC01.html">2주차</a></li><li><span>3주차 (자료없음)</a></li>
+<li><a href="week/DOC02.html">4주차</a></li><li><a href="week/DOC04.html">5주차</a></li><li><a href="week/DOC04.html">6주차</a></li>
+<li><a href="week/DOC05.html">7주차</a></li><li><span>8주차 (예정)</span></li><li><span>9주차 (예정)</span></li>
+<li><span>10주차 (예정)</span></li><li><span>11주차 (예정)</span></li><li><span>12주차 (예정)</span></li>
+<li><span>13주차 (예정)</span></li><li><span>14주차 (예정)</span></li><li><span>15주차 (예정)</span></li>
+</ol>
+</section>
+</main>
+
+<footer><div class="container">최종 수정일: 2026-10-19</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

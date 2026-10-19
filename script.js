@@ -1,0 +1,3 @@
+const buttons=document.querySelectorAll('.semester-button');
+const panels=document.querySelectorAll('.schedule-panel');
+buttons.forEach(button=>{button.addEventListener('click',()=>{const semester=button.dataset.semester;buttons.forEach(b=>b.classList.remove('active'));panels.forEach(p=>p.classList.remove('active'));button.classList.add('active');document.querySelector('#schedule-'+semester).classList.add('active');});});
